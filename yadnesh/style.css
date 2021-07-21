@@ -132,6 +132,7 @@ html {
   
   .button:hover {
     background-color: black;
+    color:orange;
     cursor: pointer;
   }
   
@@ -142,9 +143,9 @@ html {
     display: block;
   }
   
-  .text:hover {
+/*   .text:hover {
     color: orange;  
-  }
+  } */
   .date{
     margin-left: 3.75rem;
     font-size: 0.75rem;
