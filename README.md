@@ -6,6 +6,6 @@ While uploading, please create a folder with your name in your system and upload
 Main Link :
 
 Jaydeep : https://accord-interns.github.io/Linoor-Template/Jaydeep/
-Yadnesh : https://accord-interns.github.io/Linoor-Template//Yadnesh/
+Yadnesh : https://accord-interns.github.io/Linoor-Template/yadnesh/
 Kalpesh :
 Sanket  :
