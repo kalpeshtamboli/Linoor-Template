@@ -1,0 +1,178 @@
+<html>
+    <head>
+    <title>
+        Our Team - Linoor
+    </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha512-c93ifPoTvMdEJH/rKIcBx//AL1znq9+4/RmMGafI/vnTFe/dKwnn1uoeszE2zJBQTS1Ck5CqSBE+34ng2PthJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        
+.team_carsloue{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+}
+
+ .row1{
+   margin: auto;
+    display: flex;
+  }
+
+
+.member{
+  width: 100%;
+  height: 60vh;
+  margin-right: 10px;
+  margin-left: 10px;
+  overflow: hidden;
+  
+  /* background-color: aquamarine; */
+}
+
+.last_member_car{
+  margin-right: 0%;
+}
+
+.member_img{
+  width: 300px;
+  height: 45vh;
+  overflow: hidden;
+  margin: auto;
+  border-radius: 8px;
+  filter: grayscale(100%);
+  /* background-color: chartreuse; */
+}
+
+.member_img img{
+  max-height: 100%;
+  min-width: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+  
+  
+}
+
+.member_img:hover{
+  filter: grayscale(0%);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.member_name{
+  width: 100%;
+  height: 15vh;
+  /* padding: 2%; */
+  text-align: center;
+  line-height: 35px;
+  /* background-color: darkcyan; */
+}
+
+.member_name h1{
+  font-size: 24px;
+  color:black;
+}
+
+.member_name h3{
+  font-size: 16px;
+  color: grey;
+}
+
+.social_media_handle{
+  width: 100%;
+  text-align: center;
+  
+  height: auto;
+  opacity: 0;
+  transition: transform 400ms ease-in-out;
+  /* background-color: aqua; */
+}
+
+.member:hover .social_media_handle{
+  opacity: 1;
+  transform:translate(0px, -80px);
+}
+
+.fa-facebook  {
+  display: inline-block;
+  border-radius: 50%;
+  padding: 0.7em 0.7em;
+  background-color: #fff;
+}
+.fa-instagram{
+  display: inline-block;
+  border-radius: 50%;
+  padding: 0.7em 0.7em;
+  background-color: #fff;
+}
+.fa-pinterest-p{
+  display: inline-block;
+  border-radius: 50%;
+  padding: 0.7em 0.7em;
+  background-color: #fff;
+}
+.fa-twitter {
+  display: inline-block;
+  border-radius: 50%;
+  padding: 0.7em 0.7em;
+  background-color: #fff;
+}
+
+@media (max-device-width: 992px){
+    .row1{
+   margin: auto;
+    display: block;
+  }
+}
+
+@media (max-device-width: 398px){
+    .team_carsloue{
+        display: block;
+    }
+}
+    </style>
+
+</head>
+    <body><div class="team_carsloue">
+            <div class="row1">
+            <div class="member">
+                <div class="member_img"><img src="images/img_avatar_m.png">
+                 <div class="social_media_handle"><i class="fab fa-facebook"></i> <i class="fab fa-twitter"></i> <i class="fab fa-pinterest-p"></i> <i class="fab fa-instagram"></i></div>
+                </div>
+                <div class="member_name"><h1>__name__</h1>
+                                         <h3>__designation__</h3>
+                </div>
+                
+            </div>
+            <div class="member">
+                <div class="member_img"><img src="images/img_avatar_f.png">
+                 <div class="social_media_handle"><i class="fab fa-facebook"></i> <i class="fab fa-twitter"></i> <i class="fab fa-pinterest-p"></i> <i class="fab fa-instagram"></i></div>
+                </div>
+                <div class="member_name"><h1>__name__</h1>
+                                         <h3>__designation__</h3>
+                </div>
+            
+        </div>
+    </div>
+        <div class="row1">
+            <div class="member">
+                <div class="member_img"><img src="images/img_avatar_m.png">
+                    <div class="social_media_handle"><i class="fab fa-facebook"></i> <i class="fab fa-twitter"></i> <i class="fab fa-pinterest-p"></i> <i class="fab fa-instagram"></i></div>
+                </div>
+                    <div class="member_name"><h1>__name__</h1>
+                                         <h3>__designation__</h3>
+                </div>
+            </div>
+            <div class="member">
+                <div class="member_img"><img src="images/img_avatar_f.png">
+                    <div class="social_media_handle"><i class="fab fa-facebook"></i> <i class="fab fa-twitter"></i> <i class="fab fa-pinterest-p"></i> <i class="fab fa-instagram"></i></div>
+                </div>
+                <div class="member_name last_mem_name"><h1>__name__</h1>
+                                         <h3>__designation__</h3>
+                </div>
+            
+        </div>
+    </div>
+    </div>
+  </body>
+</html>
